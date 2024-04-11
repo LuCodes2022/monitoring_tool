@@ -96,13 +96,13 @@ def display_metrics(stdscr):
             break
 
 # Function to test email sending functionality
-def test_email_alert():
-    email_sent = send_email_alert("Test Email", "This is a test email sent from the system monitoring script.")
-
-    if email_sent:
-        print("Test email sent successfully!")
-    else:
-        print("Failed to send test email. Check the console for details.")
+#def test_email_alert():
+#    email_sent = send_email_alert("Test Email", "This is a test email sent from the system monitoring script.")
+#
+#    if email_sent:
+#        print("Test email sent successfully!")
+#    else:
+#        print("Failed to send test email. Check the console for details.")
 
 # Main function
 def main():
